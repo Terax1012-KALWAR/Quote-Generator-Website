@@ -1,0 +1,72 @@
+/* Basic styling */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Quote box styles */
+.quote-box {
+    margin-bottom: 20px;
+}
+
+/* Quote text */
+#quote-text {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Quote author */
+#quote-author {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Button styling */
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #45a049;
+}
+
+/* Loader animation */
+.loader {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    border-top-color: #4CAF50;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
